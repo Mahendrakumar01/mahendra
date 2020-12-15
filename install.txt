@@ -6,4 +6,4 @@ cd /home/ubuntu
 wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install
 sudo chmod +x ./install
 sudo./install auto
-sudoservice codedeploy-agent start
+sudo service codedeploy-agent start
